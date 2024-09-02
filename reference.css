@@ -1,0 +1,28 @@
+section#reference {
+    padding: 3rem 5rem;
+}
+
+#reference-group {
+    padding: 2rem;
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    border: 0.25rem solid var(--base-color);
+    border-radius: 1rem;
+    background-color: #202329;
+    margin-left: 8%;
+    font-size: 1.30rem;
+}
+
+#reference-group a {
+    color: white;
+    margin: 0.5rem 0;
+    transition: scale 500ms ease, translate 500ms ease;
+}
+
+#reference-group a:hover{
+    color: var(--base-color);
+    text-decoration: underline;
+    scale: 1.1;
+    translate: 5%;
+}

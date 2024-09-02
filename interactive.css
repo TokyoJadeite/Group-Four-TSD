@@ -1,0 +1,133 @@
+#interactive {
+    padding: 0 9%;
+    font-size: 1.2rem;
+}
+
+#interactive h1 {
+    color: #333;
+    font-size: 2rem;
+} 
+
+/* Wordle Game CSS */
+.game-container {
+    color: #333;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    display: grid;
+    place-items: center;
+
+    & > * {
+        margin-bottom: 8px;
+    }
+}
+
+#board {
+    display: grid;
+    grid-gap: 5px;
+}
+
+#board .letter {
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    display: grid;
+    align-content: center;
+}
+
+
+#message {
+    font-size: 18px;
+    color: #333;
+}
+
+#guessInput {
+    width: 30rem;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    color: black;
+}
+
+#guessButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#guessButton:hover {
+    background-color: #218838;
+}
+
+
+
+.game-container2 {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #b74b4b;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+
+}
+
+
+.grid {
+    margin: 20px;
+}
+
+input {
+    width: 30rem;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#hint, #hint2 {
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000; /* Black color for visibility */
+    background-color: #e0e0e0; /* Light gray background for contrast */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 5px;
+}
+
+#feedback {
+    margin: 20px;
+    font-size: 16px;
+}
